@@ -1,0 +1,168 @@
+* {
+    margin:0px;
+    padding:0px;
+    font-family: Inter, sans-serif;
+    
+}
+
+
+
+body{
+    position: relative;
+    background: gray;
+}
+
+.container {
+    background:#23252C;
+    border-radius:15px;
+    width: 515px;
+    height: 1100px;
+    margin:20px 10px 10px 10px;
+    padding: 30px 0px 0px 0px;
+    
+
+}
+
+
+.container--stack{
+    border-radius:15px 15px 0px 0px;
+    background:indigo;
+    width: 400px;
+    height: 930px;
+    left: 55px;
+    top: 44px;
+}
+
+img{
+  width:400px;
+  height: 400px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+h1{
+    font-family: Inter, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: #9D70EE;
+}
+
+.titles, .link{
+    text-align: center;
+    color: beige;
+    text-align: center;
+    font-weight: 400px;
+    font-family: Inter, sans-serif;
+    
+}
+
+.link{
+    font-size: 13px;
+    text-decoration:none; 
+}
+
+.link:hover{
+    color:#80808A;
+}
+
+.link:active{
+    color:#9D00FF;
+}
+
+.button--block{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 10px;
+
+}
+
+
+
+button{
+    
+    box-sizing: border-box;
+    border: 1px solid; 
+    border-radius: 6px;
+    width: 120px;
+    height: 30px;
+    font-size: 13px;
+    margin: 10px;
+    font-family: Inter, sans-serif;
+    box-shadow: 0px 2px 2px black;
+    outline: none;
+    transition: box-shadow 0.3s, transform 0.3s;
+  
+}
+
+
+button:hover{
+    box-shadow: 0px 0px 8px 2px rgba(157, 0, 255, 0.7); 
+    
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+
+button > i{
+    font-size:15px;
+    padding-right:5px;
+    color:antiquewhite;
+}
+
+.buttons--github{
+    background-color:#9D00FF ;
+}
+.buttons--email{
+    background-color:#80808A;
+}
+
+.container--text {
+    width: 350px;
+    height: 201px;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    margin: 20px;
+    color:whitesmoke;
+
+    
+    
+}
+
+h3 {
+    
+    margin: 5.5px 0px;
+    padding-left: 7.5px;
+    color:white;
+    color: #9D70EE;
+
+}
+
+.about, .interests {
+    
+    padding: 0px 10px 15px 10px;
+}
+
+.icons {
+  position: absolute;
+  width: 401px;
+  height: 64px;
+  top: 950px;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.icons > a > i {
+  color: #9d00ff;
+  font-size: 30px;
+  margin: 10px;
+  padding: 10px;
+}
